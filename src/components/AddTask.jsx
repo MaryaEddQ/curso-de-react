@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Input from "./Input";
+import Input from "./InputTeste";
 import Button from "./Button";
 
 function AddTask({ onAddTaskSubmit }) {
@@ -29,7 +29,6 @@ function AddTask({ onAddTaskSubmit }) {
           setTitle("");
           setDescription("");
         }}
-        className="bg-slate-500 text-white px-4 py-2 rounded-md font-medium"
       >
         Adicionar
       </Button>
